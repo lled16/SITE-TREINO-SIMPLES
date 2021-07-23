@@ -1,0 +1,283 @@
+
+ .body {
+    max-width: 100%;
+    padding: 0;
+    margin: 0 auto !important;
+    overflow-x:hidden;
+    background-image: url(img/fundo.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+
+}
+
+.icone-topo{
+
+color: black;
+
+}
+ 
+
+nav {
+    
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: darkred;
+    z-index: 99;
+    height: 50px;
+    
+}
+#linha-titulo-topo {
+
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color:darkred;
+    z-index: 99;
+    height: 50px;
+
+}
+
+nav a {
+    color: black;
+    margin: auto 5px auto 10px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+nav li {
+    float: right;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 6.5%;
+}
+ .li-topo:hover{
+     color: white;
+ }
+
+.ul-topo{
+    text-align: right;
+    margin-left: 25%;
+
+}
+.titulo-topo{
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.slide{
+    padding: 0;
+    width: 100%;
+    
+    
+
+}
+
+.titulo-quem-somos{
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    
+    
+}
+
+.texto-meio{
+
+    font-size: 200px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 23%;
+    margin-top: 20%;
+    color: #fff;
+}
+
+.texto-meio2{
+
+    font-size: 200px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 28%;
+    margin-top: 16%;
+    color: black;
+}
+
+.texto-meio3{
+
+    font-size: 200px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 16%;
+    color: #fff;
+}
+
+
+
+
+.sobre-nos1{
+    
+    width: 100%; 
+    height: 250px;
+    
+   
+    
+}
+.fundo-quem-somos{
+    background-color: rgba(245,245,220,0.7);
+    border-radius: 35px;
+    border-style: solid;
+    border-color: rgba(245,245,220,0.7);
+
+
+
+}
+
+.texto-quem-somos{
+    font-weight: bold;
+    text-align: justify;
+        
+    
+}
+
+
+.empresas{
+    width: 150px;
+    position: relative;
+    top: 30px;
+    
+    
+}
+.empresas:hover{
+    width: 170px;
+    top: 15px;
+    transition: width .2s linear;
+    transition: top .2s linear;
+    
+    
+}
+
+
+
+.empresas2{
+    width: 300px;
+    position: relative;
+    top: 15px;
+    
+    
+}
+.empresas2:hover{
+    width: 320px;
+    top: 5px;
+    transition: width .2s linear;
+    transition: top .2s linear;
+    
+    
+}
+
+
+.empresas3{
+    width: 150px;
+    position: relative;
+    top: 65px;
+    
+    
+}
+.empresas3:hover{
+    width: 170px;
+    top: 50px;
+    transition: width .2s linear;
+    transition: top .2s linear;
+    
+    
+}
+
+
+
+
+
+
+.rodape{
+    height: 100px;
+    background-color:darkred;
+}
+
+.galeria{
+    height: 100px;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+}
+
+ .redes{
+
+  margin-top: 25px;
+  margin-left: 5%;
+  color: white;
+ }
+ .redes:hover{
+
+    margin-top: 25px;
+    margin-left: 5%;
+    color:teal;
+   }
+
+ .redes1{
+
+    margin-top: 25px;
+    margin-left: 5%;
+    color: white;
+   }
+
+
+   .lightbox-gallery {
+    background-color:rgba(220,220,220,0.9);
+    background-repeat: no-repeat;
+    color: #000;
+    overflow-x: hidden
+}
+
+.lightbox-gallery p {
+    color: #fff
+}
+
+.lightbox-gallery h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: #fff
+}
+
+@media (max-width:300px) {
+    .lightbox-gallery h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px
+    }
+}
+
+.lightbox-gallery .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto 40px
+}
+
+.lightbox-gallery .intro p {
+    margin-bottom: 0
+}
+
+.lightbox-gallery .photos {
+    padding-bottom: 20px
+}
+
+.lightbox-gallery .item {
+    padding-bottom: 30px
+}
+
